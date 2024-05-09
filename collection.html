@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+ 	<head>
+ 		<!-- Meta Tags -->
+		<meta charset="UTF-8">
+		<meta name="author" content="Kamran Mubarik">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- Title -->
+ 		<title>DEXTADEPT</title>
+ 		<!-- Style Sheet -->
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<!-- Javascript -->	
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  		<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+  		<script>
+		    $(document).ready(function(){
+		      $('.slider').bxSlider({
+				  auto: true,
+				  autoControls: true,
+				  stopAutoOnClick: true,
+				  pager: true
+				});
+		    });
+		 </script>
+ 	</head>
+<body>
+
+	<header>
+		<div class="container">
+			<div class="brand">
+				<div class="logo">
+					<a href="index.html">
+						<img src="img/icons/online_shopping.png">
+						<div class="logo-text">
+							<p class="big-logo">DEXTADEPT</p>
+							<p class="small-logo">online shop</p>
+						</div>
+					</a>
+				</div> <!-- logo -->
+				<div class="shop-icon">
+					<div class="dropdown">
+						<img src="img/icons/account.png">
+						<div class="dropdown-menu">
+							<ul>
+								<li><a href="account.html">My Account</a></li>
+								<li><a href="orders.html">My Orders</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="dropdown">
+						<img src="img/icons/heart.png">
+						<div class="dropdown-menu wishlist-item">
+							<table border="1">
+								<thead>
+									<tr>
+										<th>Image</th>
+										<th>Product Name</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td><img src="img/product/jewellery7.jpg"></td>
+										<td>product name</td>
+									</tr>
+									<tr>
+										<td><img src="img/product/hand bag 4.jpg"></td>
+										<td>product name</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+					<div class="dropdown">
+						<img src="img/icons/shopping_cart.png">
+						<div class="dropdown-menu cart-item">
+							<table border="1">
+								<thead>
+									<tr>
+										<th>Image</th>
+										<th>Product Name</th>
+										<th class="center">Price</th>
+										<th class="center">Qty.</th>
+										<th class="center">Amount</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td><img src="img/product/TOY5.jpg"></td>
+										<td>product name</td>
+										<td class="center">450</td>
+										<td class="center">2</td>
+										<td class="center">900</td>
+									</tr>
+									<tr>
+										<td><img src="img/product/soap 1.jpg"></td>
+										<td>product name</td>
+										<td class="center">180</td>
+										<td class="center">2</td>
+										<td class="center">360</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</div> <!-- shop icons -->
+			</div> <!-- brand -->
+
+			<div class="menu-bar">
+				<div class="menu">
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="shop.html">Shop</a></li>
+						<li><a href="about.html">About</a></li>
+						<li><a href="contact.html">Contact</a></li>
+					</ul>
+				</div>
+			</div> <!-- menu -->
+		</div> <!-- container -->
+	</header> <!-- header -->
+
+	<!--Product-->
+	<div class="product-section">
+		<form class="product-search">
+			<input type="text" id="search" placeholder="Search" style="color: white;">
+			<i class="fa-solid fa-magnifying-glass"></i>
+		</form>
+		<div class="products" id="products">
+			<div class="products-box">
+				<img src="img/product/wall design 3.jpg" width="200px" heigth="200px">
+				<p style="color: white;">WALL DESIGNER </p>
+			</div>
+			<div class="products-box">
+				<img src="img/product/brace1.webp"width="200px" height="200px">
+				<p style="color: white;">BRACELET</p>
+			</div>
+			<div class="products-box">
+				<img src="img/product/hand bag 2.jpg"width="200px" height="200px">
+				<p style="color: white;">HANDBAGS</p>
+			</div>
+			<div class="products-box">
+				<img src="img/product/soap 2.jpg"width="200px" height="200px">
+				<p style="color: white;">HANDMADE SOAP</p>
+			</div>
+			<div class="products-box">
+				<img src="img/product/mud4.webp"width="200px" height="200px">
+				<p style="color: white;">MUDPOT</p>
+			</div>
+			<div class="products-box">
+				<img src="img/product/d2.avif" width="200px" height="200px">
+				<p style="color: white;">HANDMADE BRACELETS</p>
+			</div>
+			
+		</div>
+		<script src="collection.js"></script>
+
+	</div>
